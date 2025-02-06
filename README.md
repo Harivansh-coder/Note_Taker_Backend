@@ -101,7 +101,8 @@ localhost:8080/v1/notes/:id
 
 ```json
 {
-  "content": "abc123"
+  "title": "abc4321",
+  "content": "def123"
 }
 ```
 
@@ -145,6 +146,12 @@ localhost:8080/v1/notes
 
 ```json
 {
-  "content": "abc"
+  "title": "abc",
+  "content": "abc123",
+  "isAudio": true,
+  "audioDuration": 10,
+  "isNew": true,
+  "isFavorite": true,
+  "images": ["abc.jpg"]
 }
 ```
